@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  app:
+    image: build .
+    ports:
+      - "80:3000"
+    environment:
+      - MONGO_URL=<enter your mongo url here>
